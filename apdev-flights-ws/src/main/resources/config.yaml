@@ -1,0 +1,38 @@
+http:
+  port: "8081"
+  
+american:
+  host: "training4-american-api-may2022.us-e2.cloudhub.io"
+  port: ""
+  basepath: "/"
+  protocol: "HTTP"
+  client_id: "76510e437c7e4c77a474a9b207255221"
+  client_secret: "E889108474ca42c8Aa2e01201E7A9B4c"
+  
+training:
+  host: "mu.learn.mulesoft.com"
+  port: "80"
+  basepath: "/"
+  protocol: "HTTP"
+  
+delta:
+  wsdl: "http://mu.learn.mulesoft.com/delta?wsdl"
+  service: "TicketServiceService"
+  port: "TicketServicePort" 
+  
+file:
+  accountsDir: "C:/Users/karma/Documents/APDevFundamentals4.3_studentFiles_SP_29apr2021/APDevFundamentals4.3_studentFiles_SP_29apr2021/resources"
+
+db:
+  host: "mudb.learn.mulesoft.com"
+  port: "3306"
+  user: "mule"
+  password: "mule"
+  database: "training"   
+  
+salesforce:
+  username: "sanjit@student.com"
+  password: "Physics@@22"
+  token: "yjGn8v5Yw1Eim0zIIBkSJr8B"
+  url: "https://login.salesforce.com/services/Soap/u/54.0"
+   
